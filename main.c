@@ -5,7 +5,7 @@
 #include "heap.h"
 
 /*
-Assignment 5: integer minheap
+Assignment 6: integer minheap
 */
 
 unsigned long long rand_between(unsigned long long min,
@@ -30,6 +30,5 @@ void test_heap(void) {
 }
 int main(int argc, char *argv[]) {
     srand(time(NULL));
-
     test_heap();
 }
